@@ -1,0 +1,37 @@
+html,body{
+    background:#000;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    display:block;
+}
+
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.timer{
+    h1{
+        display:block;
+        width:100%;
+        text-align: center;
+        font-size:80px;
+        text-decoration: underline;
+    } 
+    .thetime{
+        font-size:45px;
+        color: #f30089;
+    }
+    clear:both;
+    font-size:120px;
+    width:100%;
+    text-align: center;
+    word-wrap: break-word;
+    span{
+        font-size:150px;
+        font-weight: bold;
+        color:#d6ff05;
+    }
+}
